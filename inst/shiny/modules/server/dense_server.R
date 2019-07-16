@@ -6,5 +6,4 @@ inputSlider_action <- function(input,
       rm = input$rm,
       bins = input$bins)
   })
-
 }
