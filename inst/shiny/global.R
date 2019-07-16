@@ -5,6 +5,7 @@ library(shinyhelper)
 
 source("modules/server/dense_server.R")
 source("modules/ui/dense_ui.R")
+source("modules/helper/helper.R")
 
 activation <- c("elu", "exponential",
                 "hard_sigmoid","linear",
